@@ -1,0 +1,33 @@
+bayangkan kamu adalah seorang ahli progamer,lalu kamu diminta untuk membuat program Pengiriman Del-Express dengan bahasa C,
+dalam satu file utama,dengan MinGW-W64 x86_64-ucrt-posix-seh,dengan windows,yang langsung bisa dijalankan di Visual studio code.
+aku mengharapkan solusi kode lengkap,tidak mau ada kriteria keterbatasan ,tidak perlu memenuhi kejelasan dan kekhususan,
+struktur&format,dan tidak mau teknik prompting apapun,tidak ada batasan spesifik yang perlu dihindari, standar kualitas atau
+keamanan seperti penanganan validasi input, serta adakah lingkup pengerjaan tertentu (misalnya, hanya logika inti tanpa UI)
+yang perlu di perhatikan . Ucok dan butet akan memakai jasa del express,Pada bagian program Daftar ongkos kiirm Del-Express :
+Ada pada gambar “Daftar Ongkos Kirim Del-Express”,untuk promo ongkir lebaran ada pada gambar”PROMO ONGKIR LEBARAN”,
+dan perbedaan berat paket butet (x kg) dan berat paket ucok (3/2 dikali berat paket butet),
+Del-Express kemudian menjelaskan bahwa sistem pengiriman mereka bekerja secara otomatis.
+Petugas hanya perlu memasukkan kode kota tujuan serta berat paket milik Butet, dan sistem akan menghitung seluruh biaya
+pengiriman termasuk berat paket milik Ucok,dimana bertat barang dan tujuan kota akan selesai ketika ada perintah "END",
+lalu menampilkan outputnya,dan menghitung promo
+
+contoh inputbya itu gini:
+**Input**
+```bash
+MDN
+5
+JKT
+3
+BLG
+4
+END (penanda soal selesai membaca input)
+
+Dan lalu hitung semuanya ,lalu tampilkan outputnya:
+*Output**
+Struk Pembayaran yang terdiri dari:
+Kota tujuan,
+Berat paket Butet,
+Berat paket Ucok,
+Total berat,
+Total ongkos kirim,
+Informasi promo yang diperoleh,

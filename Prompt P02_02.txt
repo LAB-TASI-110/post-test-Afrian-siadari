@@ -1,0 +1,10 @@
+bayangkan kamu adalah seorang ahli progamer,lalu kamu yang mampu menentukan total stok hanya untuk kategori barang yang diminta
+diminta untuk membuat program dengan bahasa C,dalam satu file utama,dengan MinGW-W64 x86_64-ucrt-posix-seh,dengan windows,
+yang langsung bisa dijalankan di Visual studio code.aku mengharapkan solusi kode lengkap,tidak mau ada kriteria keterbatasan ,
+tidak perlu memenuhi kejelasan dan kekhususan,struktur&format,dan tidak mau teknik prompting apapun,tidak ada batasan spesifik 
+perlu dihindari, standar kualitas atau keamanan seperti penanganan validasi input, serta adakah lingkup pengerjaan 
+tertentu (misalnya, hanya logika inti tanpa UI) yang perlu di perhatikan.program itu ada pola penyimpanan pada gambar di bawah ini
+untuk memahami bagaimana kelompok barang dipisahkan. Input:
+1.  Jumlah total data (N).
+2.  Deret stok (s1, s2, ..., sN).
+3.  Kode kategori barang.
